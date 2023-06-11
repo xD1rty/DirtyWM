@@ -69,5 +69,6 @@ static const struct arg args[] = {
     { run_command, "^c#fabd2f^ ^d^ %s% | ",                  "/home/dirty/.config/DirtyWM/scripts/getbattery" },
     { run_command, "^c#ebdbb2^ ^d^ %s | ",             "/home/dirty/.config/DirtyWM/scripts/gettime" },
     { keymap, "^c#d3869b^ ^d^ %s | ", NULL },
-    { run_command, "^c#8ec07c^ ^d^ %s ", "/home/dirty/.config/DirtyWM/scripts/getmedianame" }
+    { run_command, "^c#8ec07c^ ^d^ %s | ", "/home/dirty/.config/DirtyWM/scripts/getmedianame" },
+    { wifi_essid,  "^c#fb4934^ ^d^ %s ", "wlp2s0" }
 };

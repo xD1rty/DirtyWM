@@ -1,0 +1,29 @@
+
+
+Sun Jun  4 15:14:05 2023
+Command line: TestDisk
+
+TestDisk 7.1, Data Recovery Utility, July 2019
+Christophe GRENIER <grenier@cgsecurity.org>
+https://www.cgsecurity.org
+OS: Linux, kernel 6.3.5-arch1-1 (#1 SMP PREEMPT_DYNAMIC Tue, 30 May 2023 13:44:01 +0000) x86_64
+Compiler: GCC 12.2
+ext2fs lib: 1.47.0, ntfs lib: libntfs-3g, reiserfs lib: none, ewf lib: none, curses lib: ncurses 6.3
+Warning: can't get size for Disk /dev/mapper/control - 0 B - 0 sectors, sector size=512
+Hard disk list
+Disk /dev/nvme0n1 - 512 GB / 476 GiB - CHS 488386 64 32, sector size=512
+
+Partition table type (auto): EFI GPT
+Disk /dev/nvme0n1 - 512 GB / 476 GiB
+Partition table type: None
+
+Interface Advanced
+   P Unknown                  0   0  1 488386  21 16 1000215216
+Change partition type:
+   P ext4                     0   0  1 488386  21 16 1000215216
+search_superblock
+
+   P ext4                     0   0  1 488386  21 16 1000215216
+Can't open filesystem. Filesystem seems damaged.
+
+TestDisk exited normally.
